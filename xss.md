@@ -1,11 +1,3 @@
----
-title: DVWA系列之XSS
-date: 2018-04-19 13:45:55
-categories: Security
-tags: 
-- XSS
-- Security
----
 前期准备：linux下搭建dvwa需要lamp环境，其php版本不能太高，php7.0无法使用，php5.6可以;
 #### XSS定义
 CSS(Cross Site Script)又叫XSS,中文意思：[跨站脚本攻击](http://baike.baidu.com/view/2633667.htm)。它指的是恶意攻击者往Web页面里插入恶意html代码，当用户浏览该页之时，嵌入其中Web里面的html代码会被执行。XSS的攻击目标是为了盗取客户端的cookie或者其他网站用于识别客户端身份的敏感信息。获取到合法用户的信息后，攻击者甚至可以假冒最终用户与网站进行交互。
